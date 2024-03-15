@@ -125,7 +125,7 @@ export const Data = {
           title: 'Personal Portfolio',
           tech: 'NextJS, Typescript, TailwindCSS',
           source: 'https://github.com/derenluu/my-portfolio',
-          description: ['Personal portfolio'],
+          description: 'Personal portfolio',
         },
       ],
     },
