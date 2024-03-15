@@ -1,7 +1,7 @@
 import '@/assets/css/globals.css';
 import {ArticlesType} from '@/types';
 
-function Articles({sections, title, status}: ArticlesType) {
+function Articles({title, status, sections}: ArticlesType) {
   return (
     <article
       className={`${title} ${status}`}

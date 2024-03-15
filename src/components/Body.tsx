@@ -1,104 +1,73 @@
 'use client';
 
-import Articles from "./Articles";
-
-// import Link from 'next/link';
-// import {usePathname} from 'next/navigation';
-
-// import React from 'react';
-
-// const NavBar = () => {
-//   const pathName = usePathname();
-
-//   const menuItems = [
-//     {href: '/about', label: 'About me', status: 'active'},
-//     {href: '/resume', label: 'Resume', status: ''},
-//     {href: '/skills', label: 'Skills', status: ''},
-//     {href: '/achievements', label: 'Achievements', status: ''},
-//   ];
-
-//   return (
-//     <nav className="h-1/6">
-//       <div className="p-3 mx-auto">
-//         <div className="flex items-center">
-//           <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
-//             {menuItems.map((item, index) => (
-//               <li
-//                 key={index}
-//                 className={`border-2 rounded-3xl p-2 hover:bg-zinc-400 duration-300 ${
-//                   pathName == item.href ? 'active' : ''
-//                 }`}>
-//                 <Link
-//                   href={item.href}
-//                   className="rounded-3xl">
-//                   {item.label}
-//                 </Link>
-//               </li>
-//             ))}
-//           </ul>
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default NavBar;
-// import NavBar from '../components/NavBar'
-// import Articles from './Articles'
-// import * as Sections from './ContentSections'
-// import React, { useEffect } from 'react'
+import {useState} from 'react';
+import Articles from './Articles';
+import NavBar from './NavBar';
+import {AboutSection} from './Sections/AboutSection';
+import {ResumeSection} from './Sections/ResumeSection';
+import {SkillsSection} from './Sections/SkillsSection';
+import {AchievementsSection} from './Sections/AchievementsSection';
 
 function Body() {
-  //   useEffect(() => {
-  //     import('../assets/js/script.js')
-  //   }, [])
-  return (
-    <div className="main-content">bascunasuiocnuio</div>
-    // <div class="main-content">
+  const [activeTab, setActiveTab] = useState('About');
 
-    // <Articles />
-    //       <nav class="navbar">
-    //         <NavBar />
-    //       </nav>
-    //       <AboutTab />
-    //       <ResumeTab />
-    //       <SkillsTab />
-    //       <AchievementsTab />
-    //       <CreditTab />
-    //     </div>
-    //   )
-    // }
-    // function AboutTab() {
-    //   return (
-    //     <Articles
-    //       title="About me"
-    //       status="active"
-    //       sections={Sections.AboutSections()}
-    //     />
-    //   )
-    // }
-    // function ResumeTab() {
-    //   return (
-    //     <Articles title="Résumé" status="" sections={Sections.ResumeSections()} />
-    //   )
-    // }
-    // function SkillsTab() {
-    //   return (
-    //     <Articles title="Skills" status="" sections={Sections.SkillsSections()} />
-    //   )
-    // }
-    // function AchievementsTab() {
-    //   return (
-    //     <Articles
-    //       title="Achievements"
-    //       status=""
-    //       sections={Sections.AchievementsSections()}
-    //     />
-    //   )
-    // }
-    // function CreditTab() {
-    //   return (
-    //     <Articles title="Credit" status="" sections={Sections.CreditSections()} />
+  // declare variable types
+  const handleTabChange = (tabName: string) => {
+    setActiveTab(tabName);
+  };
+
+  return (
+    <div className="main-content">
+      <NavBar
+        onTabChange={handleTabChange}
+        activeTab={activeTab}
+      />
+      {activeTab === 'About' && <AboutTab />}
+      {activeTab === 'Resume' && <ResumeTab />}
+      {activeTab === 'Skills' && <SkillsTab />}
+      {activeTab === 'Achievements' && <AchievementsTab />}
+    </div>
   );
 }
+
+function AboutTab() {
+  return (
+    <Articles
+      title="About me"
+      status="active"
+      sections={<AboutSection />}
+    />
+  );
+}
+
+function ResumeTab() {
+  return (
+    <Articles
+      title="Resume"
+      status="active"
+      sections={<ResumeSection />}
+    />
+  );
+}
+
+function SkillsTab() {
+  return (
+    <Articles
+      title="Skills"
+      status="active"
+      sections={<SkillsSection />}
+    />
+  );
+}
+
+function AchievementsTab() {
+  return (
+    <Articles
+      title="Achievements"
+      status="active"
+      sections={<AchievementsSection />}
+    />
+  );
+}
+
 export default Body;

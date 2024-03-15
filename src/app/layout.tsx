@@ -3,12 +3,12 @@ import type {Metadata} from 'next';
 
 export const metadata: Metadata = {
   title: 'Deren | Portfolio',
-  description: 'Description of your portfolio',
+  description: 'Site of Deren',
   icons: {
     icon: [
       {
-        url: '/assets/images/wavinghand.svg',
-        href: '/assets/images/wavinghand.svg',
+        url: '/wavinghand.svg',
+        href: '/wavinghand.svg',
       },
     ],
   },
