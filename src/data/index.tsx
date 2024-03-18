@@ -1,7 +1,8 @@
 import avatarImage from '@/assets/images/avatar.png';
 
 export const Data = {
-  name: 'Deren Luu\n(Luu Uy Danh)',
+  name: 'Deren Luu',
+  fullNam: 'Luu Uy Danh',
   job: 'Web Developer',
   avatar: avatarImage,
   social: {
