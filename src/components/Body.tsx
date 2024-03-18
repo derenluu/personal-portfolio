@@ -3,12 +3,11 @@
 import {useState} from 'react';
 import Articles from './Articles';
 import NavBar from './NavBar';
-import {AboutSection} from './Sections/AboutSection';
-import {ResumeSection} from './Sections/ResumeSection';
-import {SkillsSection} from './Sections/SkillsSection';
-import {AchievementsSection} from './Sections/AchievementsSection';
-import {ProjectsSection} from './Sections/ProjectsSection';
-
+import {AboutSection} from './AboutSection/page';
+import {ResumeSection} from './ResumeSection/page';
+import {SkillsSection} from './SkillsSection/page';
+import {ProjectsSection} from './ProjectsSection/page';
+import {AchievementsSection} from './AchievementsSection/page';
 function Body() {
   const [activeTab, setActiveTab] = useState('About');
 
