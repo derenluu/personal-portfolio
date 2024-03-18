@@ -51,11 +51,11 @@ function SideBar() {
             title={Data.name}>
             {Data.name}
           </h1>
-          <h1
+{/*           <h1
             className="name"
             title={Data.fullName}>
             {Data.fullName}
-          </h1>
+          </h1> */}
 
           <p className="title">{Data.job}</p>
         </div>
