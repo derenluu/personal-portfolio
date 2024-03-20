@@ -16,23 +16,24 @@ export function ProjectsSection() {
   //   };
 
   return (
-      <>
-        <section className="project">
-          {/* <p>{Data.portfolio.Achievements.Activities}</p> */}
-          <p>Projects</p>
-        </section>
-      </>
-    // <>
-      {/* <section className="project"> */}
-      {/* Projects */}
-      {/* <FilterListProject
-          onTabChange={handleTabChange}
-          activeTab={activeTab}
-        />
-        {activeTab === 'Public' && <PublicTab />}
-        {activeTab === 'Private' && <PrivateTab />} */}
-      {/* </section> */}
-    // </>
+    <>
+      <section className="project">
+        {/* <p>{Data.portfolio.Achievements.Activities}</p> */}
+        <p>Projects</p>
+      </section>
+    </>
+
+    // // <>
+    //   {/* <section className="project"> */}
+    //   {/* Projects */}
+    //   {/* <FilterListProject
+    //       onTabChange={handleTabChange}
+    //       activeTab={activeTab}
+    //     />
+    //     {activeTab === 'Public' && <PublicTab />}
+    //     {activeTab === 'Private' && <PrivateTab />} */}
+    //   {/* </section> */}
+    // // </>
   );
 }
 

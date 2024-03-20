@@ -8,6 +8,7 @@ import {ResumeSection} from './ResumeSection/page';
 import {SkillsSection} from './SkillsSection/page';
 import {ProjectsSection} from './ProjectsSection/page';
 import {AchievementsSection} from './AchievementsSection/page';
+
 function Body() {
   const [activeTab, setActiveTab] = useState('About');
 
