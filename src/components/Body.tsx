@@ -17,17 +17,19 @@ function Body() {
   };
 
   return (
-    <div className="main-content">
-      <NavBar
-        onTabChange={handleTabChange}
-        activeTab={activeTab}
-      />
-      {activeTab === 'About' && <AboutTab />}
-      {activeTab === 'Resume' && <ResumeTab />}
-      {activeTab === 'Skills' && <SkillsTab />}
-      {activeTab === 'Projects' && <ProjectsTab />}
-      {activeTab === 'Achievements' && <AchievementsTab />}
-    </div>
+    <>
+      <div className="main-content">
+        <NavBar
+          onTabChange={handleTabChange}
+          activeTab={activeTab}
+        />
+        {activeTab === 'About' && <AboutTab />}
+        {activeTab === 'Resume' && <ResumeTab />}
+        {activeTab === 'Skills' && <SkillsTab />}
+        {activeTab === 'Projects' && <ProjectsTab />}
+        {activeTab === 'Achievements' && <AchievementsTab />}
+      </div>
+    </>
   );
 }
 

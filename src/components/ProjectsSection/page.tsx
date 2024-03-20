@@ -17,7 +17,7 @@ export function ProjectsSection() {
 
   return (
       <>
-        <section className="project">~
+        <section className="project">
           {/* <p>{Data.portfolio.Achievements.Activities}</p> */}
           <p>Projects</p>
         </section>
