@@ -47,13 +47,14 @@ export const Data = {
     },
     Skills: {
       TechSkills: {
-        language: ['Jquery', 'PHP (pure)', 'NodeJS', 'ReactJS', 'NextJS'],
-        db: ['PostgreSQL', 'MongoDB'],
-        manager: ['Github'],
+        Language: 'JavaScript, PHP (pure)',
+        Database: 'PostgreSQL, MongoDB',
+        Framework: 'NodeJS, NextJS, ReactJS',
+        Other: 'Git, Postman',
       },
-      FoftSkills: ['Fast Learner', 'Adaptability'],
-      Knowledge: ['Python', 'Firebase', 'Gitlab', 'Postman', 'VMware workstation', 'Premiere', 'Arduino (IOT)'],
-      Language: ['Vietnamese (Native)', 'English'],
+      SoftSkills: ['Fast Learner', 'Adaptability'],
+      Knowledge: ['Python', 'Firebase', 'Postman', 'VMware workstation', 'Premiere', 'Arduino (IOT)'],
+      Language: ['Vietnamese (Native)', 'English (Reading and understanding documents)'],
     },
     Project: {
       Private: [

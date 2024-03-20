@@ -1,6 +1,6 @@
 'use client';
 
-// import {useState} from 'react';
+import {useState} from 'react';
 // import {Data} from '@/data';
 // import ArticlesProject from './ArticlesProject';
 // import PrivateProject from './TypeProject/PrivateProject';
@@ -8,12 +8,12 @@
 // import FilterListProject from './FilterListProject';
 
 export function ProjectsSection() {
-  //   const [activeTab, setActiveTab] = useState('Public');
+  const [activeTab, setActiveTab] = useState('Public');
 
-  //   // declare variable types
-  //   const handleTabChange = (tabName: string) => {
-  //     setActiveTab(tabName);
-  //   };
+  //  declare variable types
+  const handleTabChange = (tabName: string) => {
+    setActiveTab(tabName);
+  };
 
   return (
     <>
