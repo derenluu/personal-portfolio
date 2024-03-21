@@ -21,8 +21,16 @@ export function ResumeSection() {
         <ol className="timeline-list">
           <li className="timeline-item">
             <h4 className="h4 timeline-item-title">{Data.portfolio.Resume.Education.school}</h4>
+            <h4 className="h5 timeline-item-title">{Data.portfolio.Resume.Education.major}</h4>
             <span>2018 — 2021</span>
-            <p className="timeline-text">{Data.portfolio.Resume.Education.description}</p>
+            {Object.entries(Data.portfolio.Resume.Education.description).map(([index, data]) => (
+              <p
+                className="timeline-text "
+                key="index">
+                {data}
+              </p>
+            ))}
+            {/* <p className="timeline-text">{Data.portfolio.Resume.Education.description}</p> */}
           </li>
         </ol>
       </section>

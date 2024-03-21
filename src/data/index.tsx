@@ -6,9 +6,9 @@ export const Data = {
   job: 'Web Developer',
   avatar: avatarImage,
   social: {
-    facebook: 'https://www.facebook.com/luu.uydanh/',
+    facebook: 'https://www.fb.com/luu.uydanh/',
     github: 'https://github.com/derenluu',
-    linked: 'https://www.linkedin.com/in/l%C6%B0u-uy-danh-082140277/',
+    linked: 'https://www.linkedin.com/in/derenluu/',
   },
   contact: {
     email: 'luuuydanh123c@gmail.com',
@@ -67,77 +67,63 @@ export const Data = {
       Language: ['Vietnamese (Native)', 'English (Reading and understanding documents)'],
     },
     Project: {
+      Public: [
+        {
+          title: 'Personal Portfolio (This Page)',
+          tech: ['NextJS', 'Typescript', 'TailwindCSS', 'CSS'],
+          source: 'https://github.com/derenluu/personal-portfolio',
+          description: 'Portfolio of personal.',
+        },
+      ],
       Private: [
         {
           title: 'KPI Dashboard',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoJS', 'FileFond', 'Flatpickr'],
           source: 'Private (Company Privacy Policy)',
-          description: [
-            'Learn how to calculate various types of KPIs on the current system and apply calculations, build interfaces and databases.',
-            'Build website tools to display data on the website and support exporting data to Excel file format for reporting.',
-          ],
+          description:
+            'Learn how to calculate different KPIs, apply calculations, build interfaces and databases. Make API calls from the database to the user interface. Develop filtering tools to visualize data and enable export to Excel according to provided templates for archiving purposes and create dashboards as an alternative to original reports using Excel documents.',
         },
         {
           title: 'Sample Shipping Tracking',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'FileFond', 'Flatpickr'],
           source: 'Private (Company Privacy Policy)',
-          description: [
-            'Learn about the sample transportation process and how to calculate KPIs for those in charge of sample transportation.',
-            'Build database, user interface (search package, timeline tracking, ...) and function to export data to Excel file format for reporting.',
-          ],
+          description:
+            'Learn about sample shipping processes and calculate shipping management KPIs. Build the interface and database, implement API calls from the database to the user interface. Create filtering tools for data visualization (combination of timeline tracking and search packages) and enable data export to Excel according to the provided template for reporting purposes.',
         },
         {
           title: 'Risk Assessment',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoJS', 'FileFond', 'Flatpickr'],
           source: 'Private (Company Privacy Policy)',
-          description: [
-            "Learn about the process of trying on sample shoes and how to link with the company's IT system.",
-            'Build database, user interface (search package, timeline tracking, image upload, ...), data export function to Excel file format for reporting and dashboard to display data display.',
-          ],
+          description:
+            "Learn about the process of trying on sample shoes and integrating with the company's IT system. Create database and interface, implement API calls from database to frontend. Develop filtering tools for data visualization. Build decentralized functionality with a directory tree structure to manage security and configuration, allowing personalized access for each user. Incorporates functionality to export data to Excel according to the template provided for reporting purposes and create dashboards for data visualization.",
         },
         {
           title: 'FMEA (Failure Mode and Effects Analysis)',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'FileFond'],
           source: 'Private (Company Privacy Policy)',
-          description: [
-            "Learn about other departments' processes.",
-            'Build database, user interface (search package, image upload, data upload ...), data export function to Excel file format for reporting.',
-          ],
+          description:
+            'Learn the working processes of related departments. Build database and user interface, combine search package, image upload and data upload functions. Implement the function to export data to Excel according to the template provided for reporting purposes.',
         },
         {
           title: 'Change Management',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
           source: 'Private (Company Privacy Policy)',
-          description: [
-            'Learn about the change management process.',
-            'Build database, user interface (search for tickets, create new tickets, ...), employee hierarchical directory tree, signing tool, email sending feature (outlook) and data export function data into Excel file format for reporting.',
-          ],
+          description:
+            'Learn about the change management process. Develop database and user interface with search functions, create tickets, delete tickets and update ticket data. Deploy employee hierarchical folder tree, signing tool, automatic Outlook email sending feature when there is a data update, and data export function to Excel according to the provided template for reporting purposes.',
         },
         {
           title: 'DRAR (Defective Rate Analysis Report)',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
           source: 'Private (Company Privacy Policy)',
-          description: [
-            'Learn about the material mold inspection process.',
-            'Build database and user interface (package management, model search, upload images, fill in quantities, ...), employee hierarchical directory tree, function to export data to sample Excel file format from the supplier for reporting.',
-          ],
+          description:
+            'Learn about the material mold inspection process. Database and user interface development with features including package management, sample search, image upload, quantity entry. Build decentralized functionality with a directory tree structure for configuration and security management, allowing personalization of access and data updates for each user. Function to export data to Excel in a sample format from the supplier for reporting purposes.',
         },
         {
           title: 'Attendance Report',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
           source: 'Private (Company Privacy Policy)',
-          description: [
-            "Learn about timekeeping from the company's system.",
-            'Create a sample file to upload files to the system, build a function to calculate check-in and check-out times of employee to know how to calculate time, build a function to export data to Excel file format for reporting.',
-          ],
-        },
-      ],
-      Public: [
-        {
-          title: 'Personal Portfolio (This Page)',
-          tech: ['NextJS', 'Typescript', 'TailwindCSS'],
-          source: 'https://github.com/derenluu/personal-portfolio',
-          description: ['Personal portfolio'],
+          description:
+            "Learn about the timekeeping process from the company's system. Develop sample download files to upload to the system. Build functions to calculate employee check-in and check-out times. Develop database and user interface with search and edit function of each person's data by working day. Implement folder trees to classify employees (maternity, leave,...), tools to export data to Excel for reporting, and create dashboards to visualize data.",
         },
       ],
     },

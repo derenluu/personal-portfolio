@@ -48,8 +48,7 @@ export function ProjectsSection() {
               </span>
               <p className="timeline-text">
                 ➔ Technical: {project.tech.join(', ')}.
-                <br />
-                ➔ Description: {project.description.join(', ')}.
+                <br />➔ Description: {project.description}
               </p>
             </li>
           ))}
@@ -72,7 +71,7 @@ export function ProjectsSection() {
               <span>➔ Source: {project.source}</span>
               <p className="timeline-text">
                 ➔ Technical: {project.tech.join(', ')}.
-                <br />➔ Description: {project.description.join(', ')}.
+                <br />➔ Description: {project.description}
               </p>
             </li>
           ))}
