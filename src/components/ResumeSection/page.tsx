@@ -30,7 +30,6 @@ export function ResumeSection() {
                 {data}
               </p>
             ))}
-            {/* <p className="timeline-text">{Data.portfolio.Resume.Education.description}</p> */}
           </li>
         </ol>
       </section>

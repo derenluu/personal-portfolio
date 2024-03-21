@@ -17,7 +17,6 @@ export function ProjectsSection() {
           </div>
           <h3 className="h3">Public Projects</h3>
         </div>
-        {/* <ol className="timeline-list"> */}
         <ol className="timeline-list">
           {Object.entries(dataPublicProject).map(([index, project]) => (
             <li
@@ -33,13 +32,13 @@ export function ProjectsSection() {
                   style={{display: 'inline-block', textDecoration: 'none'}}>
                   <span
                     style={{
-                      color: 'white', // Màu chữ ban đầu
+                      color: 'white',
                       textDecoration: 'underline',
-                      transition: 'color 0.3s ease', // Thiết lập hiệu ứng transition
-                      cursor: 'pointer', // Optional: Add pointer cursor
+                      transition: 'color 0.3s ease',
+                      cursor: 'pointer',
                     }}
                     className="hover-underline"
-                    onMouseEnter={(e) => (e.currentTarget.style.color = '#ffdb70')} // Khi hover vào, thay đổi màu chữ
+                    onMouseEnter={(e) => (e.currentTarget.style.color = '#ffdb70')}
                     onMouseLeave={(e) => (e.currentTarget.style.color = 'white')}>
                     {' '}
                     Github

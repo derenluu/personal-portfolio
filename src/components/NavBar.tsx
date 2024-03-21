@@ -25,11 +25,6 @@ const NavBar = ({onTabChange, activeTab}: NavBarType) => {
           status={activeTab === 'Projects' ? 'active' : ''}
           onClick={() => onTabChange('Projects')}
         />
-        {/* <NavItem
-          title="Achievements"
-          status={activeTab === 'Achievements' ? 'active' : ''}
-          onClick={() => onTabChange('Achievements')}
-        /> */}
       </ul>
     </nav>
   );

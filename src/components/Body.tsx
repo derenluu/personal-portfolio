@@ -7,7 +7,6 @@ import {AboutSection} from './AboutSection/page';
 import {ResumeSection} from './ResumeSection/page';
 import {SkillsSection} from './SkillsSection/page';
 import {ProjectsSection} from './ProjectsSection/page';
-// import {AchievementsSection} from './AchievementsSection/page';
 
 function Body() {
   const [activeTab, setActiveTab] = useState('About');
@@ -28,7 +27,6 @@ function Body() {
         {activeTab === 'Resume' && <ResumeTab />}
         {activeTab === 'Skills' && <SkillsTab />}
         {activeTab === 'Projects' && <ProjectsTab />}
-        {/* {activeTab === 'Achievements' && <AchievementsTab />} */}
       </div>
     </>
   );
@@ -72,15 +70,5 @@ function ProjectsTab() {
     />
   );
 }
-
-// function AchievementsTab() {
-//   return (
-//     <Articles
-//       title="Achievements"
-//       status="active"
-//       sections={<AchievementsSection />}
-//     />
-//   );
-// }
 
 export default Body;
