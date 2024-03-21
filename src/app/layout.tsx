@@ -2,8 +2,8 @@ import '@/assets/css/globals.css';
 import type {Metadata} from 'next';
 
 export const metadata: Metadata = {
-  title: 'Deren | Portfolio',
-  description: 'Site of Deren',
+  title: 'Deren Luu | Portfolio',
+  description: 'Deren Luu Portfolio',
   icons: {
     icon: [
       {

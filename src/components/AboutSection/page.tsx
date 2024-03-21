@@ -4,7 +4,7 @@ export function AboutSection() {
   return (
     <>
       <section className="about-text">
-        <p>{Data.portfolio.About_Me}</p>
+        <h5 className="h5">{Data.portfolio.About_Me}</h5>
       </section>
     </>
   );

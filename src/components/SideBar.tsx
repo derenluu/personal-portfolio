@@ -18,10 +18,10 @@ const socialLinks: {icon: React.ReactNode; href: string}[] = [
 ];
 
 const personalInfo: {icon: React.ReactNode; title: string; data: string; method: any}[] = [
-  {icon: <LocalPhoneIcon />, title: 'Phone', data: Data.contact.phone, method: `tel:${Data.contact.phone}`},
   {icon: <EmailIcon />, title: 'Email', data: Data.contact.email, method: `mailto:${Data.contact.email}`},
-  {icon: <LocationOnIcon />, title: 'Location', data: Data.contact.location, method: '#'},
+  {icon: <LocalPhoneIcon />, title: 'Phone', data: Data.contact.phone, method: `tel:${Data.contact.phone}`},
   {icon: <CakeIcon />, title: 'Birthday', data: Data.contact.birthDay, method: '#'},
+  {icon: <LocationOnIcon />, title: 'Location', data: Data.contact.location, method: '#'},
 ];
 
 function SideBar() {
@@ -51,11 +51,6 @@ function SideBar() {
             title={Data.name}>
             {Data.name}
           </h1>
-{/*           <h1
-            className="name"
-            title={Data.fullName}>
-            {Data.fullName}
-          </h1> */}
 
           <p className="title">{Data.job}</p>
         </div>

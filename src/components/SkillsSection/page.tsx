@@ -18,7 +18,7 @@ export function SkillsSection() {
                 className="skills-item">
                 <div className="title-wrapper">
                   <h5 className="h5 font-bold ">{category}:</h5>
-                  <h6 className="">{skills}</h6>
+                  <h6 className=""> {skills}</h6>
                 </div>
               </li>
             ))}
@@ -35,7 +35,6 @@ export function SkillsSection() {
                 key={category}
                 className="skills-item">
                 <div className="title-wrapper">
-                  {/* <h5 className="h5 font-bold ">{category}:</h5> */}
                   <h5 className="h5">{skills}</h5>
                 </div>
               </li>
