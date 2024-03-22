@@ -18,7 +18,7 @@ export const Data = {
   },
   portfolio: {
     About_Me:
-      'I choose to constantly seek opportunities to expand my horizons. I approach every challenge as a chance to learn and develop, driven by a desire to acquire new skills and insights. My passion for learning boosts my motivation to excel and embrace lifelong learning.',
+      'In venturing into an industry different from my academic background, I placed a premium on my adaptability. With a knack for rapid learning, I viewed every challenge as a chance for personal growth. Motivated by the desire to acquire new skills and insights, my ultimate goal is to evolve into a proficient Fullstack developer.',
     Resume: {
       Education: {
         school: 'Cao Thang Technical College',
