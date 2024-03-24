@@ -69,7 +69,8 @@ export function ProjectsSection() {
               <h4 className="h4 timeline-item-title">{project.title}</h4>
               <span>➔ Source: {project.source}</span>
               <p className="timeline-text">
-                ➔ Technical: {project.tech.join(', ')}.
+                ➔ Responsibilities: {project.responsibilities}.
+                <br />➔ Technical: {project.tech.join(', ')}.
                 <br />➔ Description: {project.description}
               </p>
             </li>

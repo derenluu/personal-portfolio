@@ -31,13 +31,13 @@ export const Data = {
       },
       Experience: [
         {
-          title: 'Internship in Intel Corporation',
+          title: 'Internship in Intel Corporation | Intel Group',
           position: 'Intern Operator Helpdesk',
           time: '1st Quarter 2022',
           description: 'Monitor operation system of chips. Activity threading of chips. Investigate and take part in the process of making of chips.',
         },
         {
-          title: 'Web Developer',
+          title: 'Web Developer | Vietnam Chingluh Shoes Co., LTD',
           position: 'Engineer 1',
           time: '12/2021 - Now',
           description:
@@ -57,13 +57,13 @@ export const Data = {
     },
     Skills: {
       TechSkills: {
-        Language: 'JavaScript, PHP (pure)',
-        Database: 'PostgreSQL, MongoDB',
-        Framework: 'NodeJS, NextJS, ReactJS',
-        Other: 'Git, Postman',
+        Language: 'JavaScript, PHP',
+        Database: 'PostgreSQL',
+        Platforms_Frameworks: 'NodeJS (Express), ReactJS, NextJS, Bootstrap, TailwindCSS',
+        Other: 'REST API, OOP, Git, Postman',
       },
-      SoftSkills: ['Fast Learner', 'Adaptability'],
-      Knowledge: ['Python', 'Firebase', 'Postman', 'VMware workstation', 'Premiere', 'Arduino (IOT)'],
+      SoftSkills: ['Fast Learner', 'Adaptability', 'Teamwork'],
+      Knowledge: ['Python', 'MongoDB', 'Firebase', 'VMware workstation', 'Premiere', 'Arduino (IOT)'],
       Language: ['Vietnamese (Native)', 'English (Reading and understanding documents)'],
     },
     Project: {
@@ -79,6 +79,7 @@ export const Data = {
         {
           title: 'KPI Dashboard',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoJS', 'FileFond', 'Flatpickr'],
+          responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
             'Learn how to calculate different KPIs, apply calculations, build interfaces and databases. Make API calls from the database to the user interface. Develop filtering tools to visualize data and enable export to Excel according to provided templates for archiving purposes and create dashboards as an alternative to original reports using Excel documents.',
@@ -86,6 +87,7 @@ export const Data = {
         {
           title: 'Sample Shipping Tracking',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'FileFond', 'Flatpickr'],
+          responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
             'Learn about sample shipping processes and calculate shipping management KPIs. Build the interface and database, implement API calls from the database to the user interface. Create filtering tools for data visualization (combination of timeline tracking and search packages) and enable data export to Excel according to the provided template for reporting purposes.',
@@ -93,6 +95,7 @@ export const Data = {
         {
           title: 'Risk Assessment',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoJS', 'FileFond', 'Flatpickr'],
+          responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
             "Learn about the process of trying on sample shoes and integrating with the company's IT system. Create database and interface, implement API calls from database to frontend. Develop filtering tools for data visualization. Build decentralized functionality with a directory tree structure to manage security and configuration, allowing personalized access for each user. Incorporates functionality to export data to Excel according to the template provided for reporting purposes and create dashboards for data visualization.",
@@ -100,6 +103,7 @@ export const Data = {
         {
           title: 'FMEA (Failure Mode and Effects Analysis)',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'FileFond'],
+          responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
             'Learn the working processes of related departments. Build database and user interface, combine search package, image upload and data upload functions. Implement the function to export data to Excel according to the template provided for reporting purposes.',
@@ -107,6 +111,7 @@ export const Data = {
         {
           title: 'Change Management',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
+          responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
             'Learn about the change management process. Develop database and user interface with search functions, create tickets, delete tickets and update ticket data. Deploy employee hierarchical folder tree, signing tool, automatic Outlook email sending feature when there is a data update, and data export function to Excel according to the provided template for reporting purposes.',
@@ -114,6 +119,7 @@ export const Data = {
         {
           title: 'DRAR (Defective Rate Analysis Report)',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
+          responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
             'Learn about the material mold inspection process. Database and user interface development with features including package management, sample search, image upload, quantity entry. Build decentralized functionality with a directory tree structure for configuration and security management, allowing personalization of access and data updates for each user. Function to export data to Excel in a sample format from the supplier for reporting purposes.',
@@ -121,6 +127,7 @@ export const Data = {
         {
           title: 'Attendance Report',
           tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
+          responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
             "Learn about the timekeeping process from the company's system. Develop sample download files to upload to the system. Build functions to calculate employee check-in and check-out times. Develop database and user interface with search and edit function of each person's data by working day. Implement folder trees to classify employees (maternity, leave,...), tools to export data to Excel for reporting, and create dashboards to visualize data.",

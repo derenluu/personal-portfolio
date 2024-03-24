@@ -40,7 +40,7 @@ function SideBar() {
           <Image
             src={Data.avatar}
             alt={Data.name}
-            width={80}
+            width={150}
             className="rounded-xl"
           />
         </figure>
