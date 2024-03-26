@@ -60,7 +60,7 @@ export const Data = {
         Language: 'JavaScript, PHP',
         Database: 'PostgreSQL',
         Platforms_Frameworks: 'NodeJS (Express), ReactJS, NextJS, Bootstrap, TailwindCSS',
-        Other: 'CRUD, REST, OOP, Github, Postman',
+        Other: 'CRUD, REST, OOP, MVC, Github, Postman',
       },
       SoftSkills: ['Fast Learner', 'Adaptability', 'Teamwork'],
       Knowledge: ['Python', 'MongoDB', 'Firebase', 'VMware workstation', 'Premiere', 'Arduino (IOT)'],
