@@ -11,7 +11,7 @@ const NavBar = ({onTabChange, activeTab}: NavBarType) => {
           onClick={() => onTabChange('About')}
         />
         <NavItem
-          title="Resume"
+          title="Résumé"
           status={activeTab === 'Résumé' ? 'active' : ''}
           onClick={() => onTabChange('Résumé')}
         />
