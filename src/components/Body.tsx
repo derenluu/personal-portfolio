@@ -24,7 +24,7 @@ function Body() {
           activeTab={activeTab}
         />
         {activeTab === 'About' && <AboutTab />}
-        {activeTab === 'Resume' && <ResumeTab />}
+        {activeTab === 'Résumé' && <ResumeTab />}
         {activeTab === 'Skills' && <SkillsTab />}
         {activeTab === 'Projects' && <ProjectsTab />}
       </div>
@@ -45,7 +45,7 @@ function AboutTab() {
 function ResumeTab() {
   return (
     <Articles
-      title="Resume"
+      title="Résumé"
       status="active"
       sections={<ResumeSection />}
     />
