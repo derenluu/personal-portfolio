@@ -78,7 +78,7 @@ export const Data = {
       Private: [
         {
           title: 'KPI Dashboard',
-          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoJS', 'FileFond', 'Flatpickr'],
+          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoUI', 'FileFond', 'Flatpickr'],
           responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
@@ -86,7 +86,7 @@ export const Data = {
         },
         {
           title: 'Sample Shipping Tracking',
-          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'FileFond', 'Flatpickr'],
+          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoUI', 'FileFond', 'Flatpickr'],
           responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
@@ -94,7 +94,7 @@ export const Data = {
         },
         {
           title: 'Risk Assessment',
-          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoJS', 'FileFond', 'Flatpickr'],
+          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'ChartJS', 'AmCharts', 'KendoUI', 'FileFond', 'Flatpickr'],
           responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
@@ -102,7 +102,7 @@ export const Data = {
         },
         {
           title: 'FMEA (Failure Mode and Effects Analysis)',
-          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'FileFond'],
+          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoUI', 'FileFond'],
           responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
@@ -110,7 +110,7 @@ export const Data = {
         },
         {
           title: 'Change Management',
-          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
+          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoUI', 'Flatpickr'],
           responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
@@ -118,7 +118,7 @@ export const Data = {
         },
         {
           title: 'DRAR (Defective Rate Analysis Report)',
-          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
+          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoUI', 'Flatpickr'],
           responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
@@ -126,7 +126,7 @@ export const Data = {
         },
         {
           title: 'Attendance Report',
-          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoJS', 'Flatpickr'],
+          tech: ['PHP', 'PostgreSQL', 'jQuery', 'Bootstrap', 'KendoUI', 'Flatpickr'],
           responsibilities: 'Fullstack',
           source: 'Private (Company Privacy Policy)',
           description:
